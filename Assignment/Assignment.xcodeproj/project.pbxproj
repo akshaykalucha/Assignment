@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A7D0AAD28830E3600AF83E0 /* AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AAC28830E3600AF83E0 /* AssignmentApp.swift */; };
-		3A7D0AAF28830E3600AF83E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AAE28830E3600AF83E0 /* ContentView.swift */; };
 		3A7D0AB128830E3700AF83E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AB028830E3700AF83E0 /* Assets.xcassets */; };
 		3A7D0AB428830E3700AF83E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AB328830E3700AF83E0 /* Preview Assets.xcassets */; };
 		3A7D0ABE28830E3700AF83E0 /* AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0ABD28830E3700AF83E0 /* AssignmentTests.swift */; };
 		3A7D0AC828830E3700AF83E0 /* AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AC728830E3700AF83E0 /* AssignmentUITests.swift */; };
 		3A7D0ACA28830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AC928830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift */; };
+		3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -41,7 +41,6 @@
 		11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D0AA928830E3600AF83E0 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D0AAC28830E3600AF83E0 /* AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentApp.swift; sourceTree = "<group>"; };
-		3A7D0AAE28830E3600AF83E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A7D0AB028830E3700AF83E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7D0AB328830E3700AF83E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A7D0AB928830E3700AF83E0 /* AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		3A7D0AC328830E3700AF83E0 /* AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D0AC728830E3700AF83E0 /* AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITests.swift; sourceTree = "<group>"; };
 		3A7D0AC928830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,8 +111,7 @@
 		3A7D0AAB28830E3600AF83E0 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				3A7D0AAC28830E3600AF83E0 /* AssignmentApp.swift */,
-				3A7D0AAE28830E3600AF83E0 /* ContentView.swift */,
+				3A7D0AD628830F2000AF83E0 /* App */,
 				3A7D0AB028830E3700AF83E0 /* Assets.xcassets */,
 				3A7D0AB228830E3700AF83E0 /* Preview Content */,
 			);
@@ -144,6 +143,15 @@
 			path = AssignmentUITests;
 			sourceTree = "<group>";
 		};
+		3A7D0AD628830F2000AF83E0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AAC28830E3600AF83E0 /* AssignmentApp.swift */,
+				3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		3F59081045E7A837E7ED5E59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +162,6 @@
 				AA491A304E3EE014AA909157 /* Pods-AssignmentTests.debug.xcconfig */,
 				E294CE3794B3FA47D26CF3F5 /* Pods-AssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -406,8 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7D0AAF28830E3600AF83E0 /* ContentView.swift in Sources */,
 				3A7D0AAD28830E3600AF83E0 /* AssignmentApp.swift in Sources */,
+				3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

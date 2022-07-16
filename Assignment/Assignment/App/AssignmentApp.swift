@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
+// the main entrypoint of app, here we can specify instances of windows to be created that will contain hierarchy of our app
 @main
 struct AssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EntryPoint()
         }
     }
 }
