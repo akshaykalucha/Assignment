@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CMSBaseURL</key>
+	<string>$(CMSBaseURL)</string>
+	<key>NEWS_API_KEY</key>
+	<string>$(NEWS_API_KEY)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gilroy-Light.otf</string>
+		<string>Gilroy-ExtraBold.otf</string>
+		<string>Gilroy-Bold.ttf</string>
+		<string>Gilroy-Medium.otf</string>
+		<string>Edmondsans-Bold.otf</string>
+		<string>Edmondsans-Medium.otf</string>
+		<string>Gobold Regular.otf</string>
+		<string>Gilroy-Regular.ttf</string>
+		<string>Edmondsans-Regular.ttf</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+//
+//  Staging.xcconfig
+//  HYPD.
+//
+//  Created by Akshay Kalucha on 16/07/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// all staging environment variables
+
+IS_APP_NAME = Assignment Staging // application launch name
+IS_APP_VERSION = 1.1.1
+IS_APP_BUNDLE_ID = com.akcosh.me // bunde ID for linking
+NEWS_API_KEY = 3c361ac8628d4a46998a97a92faf1761
+env = staging // development environment
+
+CMSBaseURL = https:\/\/newsapi.org/
