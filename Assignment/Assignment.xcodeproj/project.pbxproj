@@ -47,6 +47,12 @@
 		3A7D0B132883159A00AF83E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B122883159A00AF83E0 /* Extensions.swift */; };
 		3A7D0B142883159A00AF83E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B122883159A00AF83E0 /* Extensions.swift */; };
 		3A7D0B152883159A00AF83E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B122883159A00AF83E0 /* Extensions.swift */; };
+		3A7D0B182883161900AF83E0 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B172883161900AF83E0 /* WebViewVC.swift */; };
+		3A7D0B192883161900AF83E0 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B172883161900AF83E0 /* WebViewVC.swift */; };
+		3A7D0B1A2883161900AF83E0 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B172883161900AF83E0 /* WebViewVC.swift */; };
+		3A7D0B1C2883161F00AF83E0 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B1B2883161F00AF83E0 /* WebView.storyboard */; };
+		3A7D0B1D2883161F00AF83E0 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B1B2883161F00AF83E0 /* WebView.storyboard */; };
+		3A7D0B1E2883161F00AF83E0 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B1B2883161F00AF83E0 /* WebView.storyboard */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -94,6 +100,8 @@
 		3A7D0B09288314BD00AF83E0 /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
 		3A7D0B0D288314D400AF83E0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		3A7D0B122883159A00AF83E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3A7D0B172883161900AF83E0 /* WebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		3A7D0B1B2883161F00AF83E0 /* WebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +232,7 @@
 		3A7D0AE32883124800AF83E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D0B162883160600AF83E0 /* WebView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +312,15 @@
 				3A7D0B122883159A00AF83E0 /* Extensions.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		3A7D0B162883160600AF83E0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0B172883161900AF83E0 /* WebViewVC.swift */,
+				3A7D0B1B2883161F00AF83E0 /* WebView.storyboard */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		3F59081045E7A837E7ED5E59 /* Pods */ = {
@@ -437,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0B1C2883161F00AF83E0 /* WebView.storyboard in Resources */,
 				3A7D0AB428830E3700AF83E0 /* Preview Assets.xcassets in Resources */,
 				3A7D0ADF2883115900AF83E0 /* Staging.xcconfig in Resources */,
 				3A7D0B012883131C00AF83E0 /* Gobold Regular.otf in Resources */,
@@ -455,6 +474,7 @@
 			files = (
 				3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */,
 				3A7D0AFE2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */,
+				3A7D0B1D2883161F00AF83E0 /* WebView.storyboard in Resources */,
 				3A7D0AEF288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */,
 				3A7D0AFA2883130600AF83E0 /* Gilroy-Medium.otf in Resources */,
 				3A7D0B022883131C00AF83E0 /* Gobold Regular.otf in Resources */,
@@ -470,6 +490,7 @@
 				3A7D0AFF2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */,
 				3A7D0AFB2883130600AF83E0 /* Gilroy-Medium.otf in Resources */,
 				3A7D0B032883131C00AF83E0 /* Gobold Regular.otf in Resources */,
+				3A7D0B1E2883161F00AF83E0 /* WebView.storyboard in Resources */,
 				3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */,
 				3A7D0AF0288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */,
 				3A7D0AF7288312FB00AF83E0 /* Gilroy-Light.otf in Resources */,
@@ -590,6 +611,7 @@
 				3A7D0B062883135000AF83E0 /* APIConstant.swift in Sources */,
 				3A7D0AAD28830E3600AF83E0 /* AssignmentApp.swift in Sources */,
 				3A7D0B0A288314BD00AF83E0 /* Reach.swift in Sources */,
+				3A7D0B182883161900AF83E0 /* WebViewVC.swift in Sources */,
 				3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */,
 				3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */,
 				3A7D0B132883159A00AF83E0 /* Extensions.swift in Sources */,
@@ -602,6 +624,7 @@
 			files = (
 				3A7D0B142883159A00AF83E0 /* Extensions.swift in Sources */,
 				3A7D0B0F288314D400AF83E0 /* APIManager.swift in Sources */,
+				3A7D0B192883161900AF83E0 /* WebViewVC.swift in Sources */,
 				3A7D0B072883135000AF83E0 /* APIConstant.swift in Sources */,
 				3A7D0B0B288314BD00AF83E0 /* Reach.swift in Sources */,
 				3A7D0ABE28830E3700AF83E0 /* AssignmentTests.swift in Sources */,
@@ -615,6 +638,7 @@
 				3A7D0AC828830E3700AF83E0 /* AssignmentUITests.swift in Sources */,
 				3A7D0B152883159A00AF83E0 /* Extensions.swift in Sources */,
 				3A7D0B0C288314BD00AF83E0 /* Reach.swift in Sources */,
+				3A7D0B1A2883161900AF83E0 /* WebViewVC.swift in Sources */,
 				3A7D0B10288314D400AF83E0 /* APIManager.swift in Sources */,
 				3A7D0ACA28830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift in Sources */,
 				3A7D0B082883135000AF83E0 /* APIConstant.swift in Sources */,
