@@ -18,6 +18,23 @@
 		3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
 		3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
 		3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AE72883127900AF83E0 /* AppConstants.swift */; };
+		3A7D0AEE288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AED288312E200AF83E0 /* Gilroy-Bold.ttf */; };
+		3A7D0AEF288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AED288312E200AF83E0 /* Gilroy-Bold.ttf */; };
+		3A7D0AF0288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AED288312E200AF83E0 /* Gilroy-Bold.ttf */; };
+		3A7D0AF2288312EE00AF83E0 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF1288312EE00AF83E0 /* Gilroy-ExtraBold.otf */; };
+		3A7D0AF3288312EE00AF83E0 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF1288312EE00AF83E0 /* Gilroy-ExtraBold.otf */; };
+		3A7D0AF5288312FB00AF83E0 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF4288312FB00AF83E0 /* Gilroy-Light.otf */; };
+		3A7D0AF6288312FB00AF83E0 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF4288312FB00AF83E0 /* Gilroy-Light.otf */; };
+		3A7D0AF7288312FB00AF83E0 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF4288312FB00AF83E0 /* Gilroy-Light.otf */; };
+		3A7D0AF92883130600AF83E0 /* Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */; };
+		3A7D0AFA2883130600AF83E0 /* Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */; };
+		3A7D0AFB2883130600AF83E0 /* Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */; };
+		3A7D0AFD2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */; };
+		3A7D0AFE2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */; };
+		3A7D0AFF2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */; };
+		3A7D0B012883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
+		3A7D0B022883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
+		3A7D0B032883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -55,6 +72,12 @@
 		3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
 		3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		3A7D0AE72883127900AF83E0 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3A7D0AED288312E200AF83E0 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		3A7D0AF1288312EE00AF83E0 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		3A7D0AF4288312FB00AF83E0 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gobold Regular.otf"; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +140,7 @@
 		3A7D0AAB28830E3600AF83E0 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D0AE9288312AF00AF83E0 /* Resources */,
 				3A7D0AE62883126A00AF83E0 /* AppConstants */,
 				3A7D0ADB2883108300AF83E0 /* Configurations */,
 				3A7D0AD628830F2000AF83E0 /* App */,
@@ -206,6 +230,43 @@
 				3A7D0AE72883127900AF83E0 /* AppConstants.swift */,
 			);
 			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		3A7D0AE9288312AF00AF83E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AEA288312BE00AF83E0 /* CustomFonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A7D0AEA288312BE00AF83E0 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AEC288312CE00AF83E0 /* GoBoldFonts */,
+				3A7D0AEB288312C600AF83E0 /* GilroyFont */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		3A7D0AEB288312C600AF83E0 /* GilroyFont */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AED288312E200AF83E0 /* Gilroy-Bold.ttf */,
+				3A7D0AF1288312EE00AF83E0 /* Gilroy-ExtraBold.otf */,
+				3A7D0AF4288312FB00AF83E0 /* Gilroy-Light.otf */,
+				3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */,
+				3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */,
+			);
+			path = GilroyFont;
+			sourceTree = "<group>";
+		};
+		3A7D0AEC288312CE00AF83E0 /* GoBoldFonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */,
+			);
+			path = GoBoldFonts;
 			sourceTree = "<group>";
 		};
 		3F59081045E7A837E7ED5E59 /* Pods */ = {
@@ -342,7 +403,13 @@
 			files = (
 				3A7D0AB428830E3700AF83E0 /* Preview Assets.xcassets in Resources */,
 				3A7D0ADF2883115900AF83E0 /* Staging.xcconfig in Resources */,
+				3A7D0B012883131C00AF83E0 /* Gobold Regular.otf in Resources */,
+				3A7D0AF5288312FB00AF83E0 /* Gilroy-Light.otf in Resources */,
+				3A7D0AFD2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */,
+				3A7D0AF2288312EE00AF83E0 /* Gilroy-ExtraBold.otf in Resources */,
 				3A7D0AB128830E3700AF83E0 /* Assets.xcassets in Resources */,
+				3A7D0AEE288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */,
+				3A7D0AF92883130600AF83E0 /* Gilroy-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +418,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */,
+				3A7D0AFE2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */,
+				3A7D0AEF288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */,
+				3A7D0AFA2883130600AF83E0 /* Gilroy-Medium.otf in Resources */,
+				3A7D0B022883131C00AF83E0 /* Gobold Regular.otf in Resources */,
+				3A7D0AF6288312FB00AF83E0 /* Gilroy-Light.otf in Resources */,
+				3A7D0AF3288312EE00AF83E0 /* Gilroy-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +431,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0AFF2883130D00AF83E0 /* Gilroy-Regular.ttf in Resources */,
+				3A7D0AFB2883130600AF83E0 /* Gilroy-Medium.otf in Resources */,
+				3A7D0B032883131C00AF83E0 /* Gobold Regular.otf in Resources */,
 				3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */,
+				3A7D0AF0288312E200AF83E0 /* Gilroy-Bold.ttf in Resources */,
+				3A7D0AF7288312FB00AF83E0 /* Gilroy-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
