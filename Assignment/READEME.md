@@ -1,5 +1,12 @@
 Assignment iOS app 
 
+
+<h3>
+Project structure
+</h3>
+![Screenshot](MVVMC.jpeg)
+
+
 1. clone repo into your local systems
 2. install home brew
 3. [install COCOAPODS](https://cocoapods.org/)
