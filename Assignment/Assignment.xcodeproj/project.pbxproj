@@ -17,6 +17,7 @@
 		3A7D0ADF2883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
 		3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
 		3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
+		3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AE72883127900AF83E0 /* AppConstants.swift */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -53,6 +54,7 @@
 		3A7D0AC928830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
 		3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		3A7D0AE72883127900AF83E0 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 		3A7D0AAB28830E3600AF83E0 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D0AE62883126A00AF83E0 /* AppConstants */,
 				3A7D0ADB2883108300AF83E0 /* Configurations */,
 				3A7D0AD628830F2000AF83E0 /* App */,
 				3A7D0AB028830E3700AF83E0 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 		3A7D0AD628830F2000AF83E0 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D0AE22883123E00AF83E0 /* Features */,
 				3A7D0AAC28830E3600AF83E0 /* AssignmentApp.swift */,
 				3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */,
 			);
@@ -163,6 +167,45 @@
 				3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		3A7D0AE22883123E00AF83E0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AE52883125700AF83E0 /* ViewModels */,
+				3A7D0AE42883125100AF83E0 /* Models */,
+				3A7D0AE32883124800AF83E0 /* Views */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3A7D0AE32883124800AF83E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A7D0AE42883125100AF83E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A7D0AE52883125700AF83E0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A7D0AE62883126A00AF83E0 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0AE72883127900AF83E0 /* AppConstants.swift */,
+			);
+			path = AppConstants;
 			sourceTree = "<group>";
 		};
 		3F59081045E7A837E7ED5E59 /* Pods */ = {
@@ -430,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7D0AAD28830E3600AF83E0 /* AssignmentApp.swift in Sources */,
+				3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */,
 				3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
