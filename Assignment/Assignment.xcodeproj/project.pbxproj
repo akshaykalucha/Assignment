@@ -63,6 +63,8 @@
 		3A7D0B2C288318EC00AF83E0 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B2B288318EB00AF83E0 /* NavView.swift */; };
 		3A7D0B2E288318FA00AF83E0 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B2D288318FA00AF83E0 /* PullToRefresh.swift */; };
 		3A7D0B302883190800AF83E0 /* NewsArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B2F2883190800AF83E0 /* NewsArticleList.swift */; };
+		3A7D0B32288319FC00AF83E0 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B31288319FC00AF83E0 /* ArticleCell.swift */; };
+		3A7D0B3528831A2C00AF83E0 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7D0B3428831A2C00AF83E0 /* BetterSafariView */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -120,6 +122,7 @@
 		3A7D0B2B288318EB00AF83E0 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		3A7D0B2D288318FA00AF83E0 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		3A7D0B2F2883190800AF83E0 /* NewsArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleList.swift; sourceTree = "<group>"; };
+		3A7D0B31288319FC00AF83E0 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */,
+				3A7D0B3528831A2C00AF83E0 /* BetterSafariView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +260,7 @@
 				3A7D0B2B288318EB00AF83E0 /* NavView.swift */,
 				3A7D0B2D288318FA00AF83E0 /* PullToRefresh.swift */,
 				3A7D0B2F2883190800AF83E0 /* NewsArticleList.swift */,
+				3A7D0B31288319FC00AF83E0 /* ArticleCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,6 +395,9 @@
 			dependencies = (
 			);
 			name = Assignment;
+			packageProductDependencies = (
+				3A7D0B3428831A2C00AF83E0 /* BetterSafariView */,
+			);
 			productName = Assignment;
 			productReference = 3A7D0AA928830E3600AF83E0 /* Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -465,6 +473,9 @@
 				Base,
 			);
 			mainGroup = 3A7D0AA028830E3600AF83E0;
+			packageReferences = (
+				3A7D0B3328831A2C00AF83E0 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+			);
 			productRefGroup = 3A7D0AAA28830E3600AF83E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -645,6 +656,7 @@
 				3A7D0B26288317C800AF83E0 /* NewsViewModel.swift in Sources */,
 				3A7D0B182883161900AF83E0 /* WebViewVC.swift in Sources */,
 				3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */,
+				3A7D0B32288319FC00AF83E0 /* ArticleCell.swift in Sources */,
 				3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */,
 				3A7D0B302883190800AF83E0 /* NewsArticleList.swift in Sources */,
 				3A7D0B2E288318FA00AF83E0 /* PullToRefresh.swift in Sources */,
@@ -995,6 +1007,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A7D0B3328831A2C00AF83E0 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A7D0B3428831A2C00AF83E0 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A7D0B3328831A2C00AF83E0 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A7D0AA128830E3600AF83E0 /* Project object */;
 }

@@ -39,7 +39,7 @@ class API_Model: NSObject {
         } else {
             newPath = path
         }
-//        APIManager.sharedInstance.callAPI(baseURL: baseURL, apiModel: self, param: param, completion: completionBlock)
+        APIManager.sharedInstance.callAPI(baseURL: baseURL, apiModel: self, param: param, completion: completionBlock)
     }
 }
 
