@@ -27,3 +27,8 @@ struct NewsArticles: Codable, Hashable, Identifiable {
     let publishedAt: String?
     let content: String?
 }
+
+struct ArticleSource: Codable, Hashable {
+    let id: String?
+    let name: String?
+}
