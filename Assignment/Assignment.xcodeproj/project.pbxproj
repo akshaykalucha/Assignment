@@ -35,6 +35,9 @@
 		3A7D0B012883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
 		3A7D0B022883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
 		3A7D0B032883131C00AF83E0 /* Gobold Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */; };
+		3A7D0B062883135000AF83E0 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B052883135000AF83E0 /* APIConstant.swift */; };
+		3A7D0B072883135000AF83E0 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B052883135000AF83E0 /* APIConstant.swift */; };
+		3A7D0B082883135000AF83E0 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0B052883135000AF83E0 /* APIConstant.swift */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -78,6 +81,7 @@
 		3A7D0AF82883130600AF83E0 /* Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.otf"; sourceTree = "<group>"; };
 		3A7D0AFC2883130D00AF83E0 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gobold Regular.otf"; sourceTree = "<group>"; };
+		3A7D0B052883135000AF83E0 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +144,7 @@
 		3A7D0AAB28830E3600AF83E0 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D0B042883134000AF83E0 /* APIManager */,
 				3A7D0AE9288312AF00AF83E0 /* Resources */,
 				3A7D0AE62883126A00AF83E0 /* AppConstants */,
 				3A7D0ADB2883108300AF83E0 /* Configurations */,
@@ -267,6 +272,14 @@
 				3A7D0B002883131C00AF83E0 /* Gobold Regular.otf */,
 			);
 			path = GoBoldFonts;
+			sourceTree = "<group>";
+		};
+		3A7D0B042883134000AF83E0 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A7D0B052883135000AF83E0 /* APIConstant.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		3F59081045E7A837E7ED5E59 /* Pods */ = {
@@ -550,6 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0B062883135000AF83E0 /* APIConstant.swift in Sources */,
 				3A7D0AAD28830E3600AF83E0 /* AssignmentApp.swift in Sources */,
 				3A7D0AE82883127900AF83E0 /* AppConstants.swift in Sources */,
 				3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */,
@@ -560,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0B072883135000AF83E0 /* APIConstant.swift in Sources */,
 				3A7D0ABE28830E3700AF83E0 /* AssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +585,7 @@
 			files = (
 				3A7D0AC828830E3700AF83E0 /* AssignmentUITests.swift in Sources */,
 				3A7D0ACA28830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift in Sources */,
+				3A7D0B082883135000AF83E0 /* APIConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
