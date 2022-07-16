@@ -59,5 +59,22 @@ public class Reach {
         return true
     }
     
+    extension ReachabilityStatus {
+        init(reachabilityFlags flags: SCNetworkReachabilityFlags) {
+            let connectionRequired = flags.contains(.connectionRequired)
+            let isReachable = flags.contains(.reachable)
+            let isWWAN = flags.contains(.isWWAN)
+            
+            if !connectionRequired && isReachable {
+                if isWWAN {
+                    self = .online(.wwan)
+                } else {
+                    self = .online(.wiFi)
+                }
+            } else {
+                self =  .offline
+            }
+        }
+    }
 }
 
