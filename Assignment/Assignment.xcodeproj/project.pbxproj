@@ -14,8 +14,9 @@
 		3A7D0AC828830E3700AF83E0 /* AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AC728830E3700AF83E0 /* AssignmentUITests.swift */; };
 		3A7D0ACA28830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AC928830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift */; };
 		3A7D0AD828830F5B00AF83E0 /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */; };
-		3A7D0ADA28830FB000AF83E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0AD928830FB000AF83E0 /* Info.plist */; };
-		3A7D0ADD2883109200AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADC2883109200AF83E0 /* Staging.xcconfig */; };
+		3A7D0ADF2883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
+		3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
+		3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */; };
 		4BE27D92789539C8332137CE /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */; };
 		878DB329AF90D674E8C779DB /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E05B82B60D7679BD823A8C /* Pods_Assignment.framework */; };
 		A87388BB78313BC7062C2375 /* Pods_Assignment_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */; };
@@ -51,8 +52,7 @@
 		3A7D0AC728830E3700AF83E0 /* AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITests.swift; sourceTree = "<group>"; };
 		3A7D0AC928830E3700AF83E0 /* AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A7D0AD728830F5B00AF83E0 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
-		3A7D0AD928830FB000AF83E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A7D0ADC2883109200AF83E0 /* Staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		891A215BD0A190FFD6E7DD39 /* Pods-Assignment-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment-AssignmentUITests/Pods-Assignment-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		892D6F677808306F6DEBF503 /* Pods_Assignment_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6679702ED5FEEC34611586B /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +118,6 @@
 				3A7D0ADB2883108300AF83E0 /* Configurations */,
 				3A7D0AD628830F2000AF83E0 /* App */,
 				3A7D0AB028830E3700AF83E0 /* Assets.xcassets */,
-				3A7D0AD928830FB000AF83E0 /* Info.plist */,
 				3A7D0AB228830E3700AF83E0 /* Preview Content */,
 			);
 			path = Assignment;
@@ -161,7 +160,7 @@
 		3A7D0ADB2883108300AF83E0 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				3A7D0ADC2883109200AF83E0 /* Staging.xcconfig */,
+				3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -298,10 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7D0ADD2883109200AF83E0 /* Staging.xcconfig in Resources */,
 				3A7D0AB428830E3700AF83E0 /* Preview Assets.xcassets in Resources */,
+				3A7D0ADF2883115900AF83E0 /* Staging.xcconfig in Resources */,
 				3A7D0AB128830E3700AF83E0 /* Assets.xcassets in Resources */,
-				3A7D0ADA28830FB000AF83E0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0AE02883115900AF83E0 /* Staging.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7D0AE12883115900AF83E0 /* Staging.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +469,7 @@
 /* Begin XCBuildConfiguration section */
 		3A7D0ACB28830E3700AF83E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A7D0ADC2883109200AF83E0 /* Staging.xcconfig */;
+			baseConfigurationReference = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -530,7 +530,7 @@
 		};
 		3A7D0ACC28830E3700AF83E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A7D0ADC2883109200AF83E0 /* Staging.xcconfig */;
+			baseConfigurationReference = 3A7D0ADE2883115900AF83E0 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

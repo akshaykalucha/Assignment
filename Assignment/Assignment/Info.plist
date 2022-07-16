@@ -10,13 +10,13 @@
 	<array>
 		<string>Gilroy-Light.otf</string>
 		<string>Gilroy-ExtraBold.otf</string>
-		<string>Gilroy-Bold.ttf</string>
 		<string>Gilroy-Medium.otf</string>
 		<string>Edmondsans-Bold.otf</string>
 		<string>Edmondsans-Medium.otf</string>
 		<string>Gobold Regular.otf</string>
 		<string>Gilroy-Regular.ttf</string>
 		<string>Edmondsans-Regular.ttf</string>
+		<string>Gilroy-Bold.ttf</string>
 	</array>
 </dict>
 </plist>
