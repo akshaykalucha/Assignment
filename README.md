@@ -5,7 +5,7 @@ Assignment iOS app
 <h3>
 Project structure
 </h3>
-![Screenshot](MVVMC.jpeg)
+<img src="MVVMC.jpeg" alt="J" width="200"/>
 
 
 
