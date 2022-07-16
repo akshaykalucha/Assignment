@@ -3,9 +3,26 @@ Assignment iOS app
 
 
 <h3>
-Project structure
+Project structure follows MVVM-C pattern for better UI separation and faster load time
 </h3>
-<img src="MVVMC.jpeg" alt="J" width="200"/>
+
+<p>MVVM pattern in general helps structure the API calls so that next time view appears, the app does not have to make extra API call to populate data</p>
+
+<img src="MVVMC.jpeg" alt="J" width="500" height="500"/>
+
+<p>Some important files</p>
+
+1. NewsViewModel : [https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/ViewModels/NewsViewModel.swift](https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/ViewModels/NewsViewModel.swift)
+
+2. GlobalViewModel : [https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/ViewModels/GlobalViewModel.swift](https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/ViewModels/GlobalViewModel.swift)
+
+3. API Manager : [https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/APIManager/APIManager.swift](https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/APIManager/APIManager.swift)
+
+4. API Constants : [https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/APIManager/APIConstant.swift](https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/APIManager/APIConstant.swift)
+
+5. News Model : [https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/Models/NewsModel.swift](https://github.com/akshaykalucha3/Assignment/blob/master/Assignment/Assignment/App/Features/Models/NewsModel.swift)
+
+6. View Folder: [https://github.com/akshaykalucha3/Assignment/tree/master/Assignment/Assignment/App/Features/Views](https://github.com/akshaykalucha3/Assignment/tree/master/Assignment/Assignment/App/Features/Views)
 
 
 
