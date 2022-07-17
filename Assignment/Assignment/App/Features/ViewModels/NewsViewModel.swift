@@ -21,7 +21,7 @@ class NewsViewModel: GlobalViewModel {
     @Published var newsArticles: [NewsArticles] = [NewsArticles]()
     @Published var newsArticleList: [NewsArticles] = [NewsArticles]()
     @Published var isLoading: Bool = false
-    @Published var reachedMaxLimit: Bool = false // weather API has reached max item limit or not, if this is true, stop making extra API Calls
+    @Published var reachedMaxLimit: Bool = false // whether the API has reached max item limit or not, if this is true, stop making extra API Calls
     
     
     // class methods
