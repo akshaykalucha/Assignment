@@ -59,6 +59,7 @@ class NewsViewModel: GlobalViewModel {
                 }
             }
             else {
+                self.alertButton(passedText: "you have reached max request limit")
                 self.reachedMaxLimit = true // we have reached  max limit possible
             }
             completion(self.newsArticles)
